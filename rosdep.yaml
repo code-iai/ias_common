@@ -1,6 +1,3 @@
-darcs:
-  debian: darcs
-  ubuntu: darcs
 libace:
   debian: libace-dev
   ubuntu: libace-dev
