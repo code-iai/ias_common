@@ -1,5 +1,16 @@
-commit 345b8657ac15f25a2dafd94bae46c2b19d67104c
-Author: Nikolaus Demmel <demmeln@in.tum.de>
-Date:   Thu Apr 29 15:03:06 2010 +0200
+commit 85e82f0d8ebdc08cb71a4bf709cf902a5ce96a9c
+Author: Ulrich Friedrich Klank <klank@in.tum.de>
+Date:   Tue Aug 3 10:42:12 2010 +0200
 
-    Added gitignore entries for some generated files.
+    Allowing to save objects in cop by a service call to /{cop}/save
+    
+    Answer is a xmlfile (absolute path, and a list of relative files referred in this xmlfile)
+    Added a test client: save_cop (Called with rosrun test_client save_cop ID)
+
+commit 106bcc06703f3844a6dd462b4bdb40c4075a02ec
+Author: Ulrich Friedrich Klank <klank@in.tum.de>
+Date:   Wed Jul 14 10:38:07 2010 +0200
+
+    Exporting demo state of cop
+    
+    restructuring might be necessary before any anouncement
