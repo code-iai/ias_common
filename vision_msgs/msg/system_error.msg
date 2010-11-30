@@ -4,6 +4,7 @@ uint64 OBJECT_NOT_FOUND = 256
 uint64 VISION_PRIMITIVE_FAILED = 512
 uint64 CONTRADICTING_TACTILE_FEEDBACK = 1024
 uint64 CONTRADICTING_VISION_RESULTS = 2048
+uint64 GRASP_FAILED_AND_CRASHED = 4096
 
 uint64  error_id                # One of the error constants defined above
 string  node_name               # The node causing this error

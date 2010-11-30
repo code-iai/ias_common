@@ -9,9 +9,11 @@ uint64[] obstacle_ids       # List of lo_id's corresponding to obstacles
 float32 distance            # For reach_primitive: distance from grasp point to approach point (m). For 'lift', distance to lift up (m)
 float32 supporting_plane    # Height of the table (m)
 ---
+
 #result
 float32 distance_to_goal
 string situation            #Allowed: grasped slipped released unreachable ik_deadlock need_to_move_base
+vision_msgs/system_error error   #Description of error
 uint64[] better_base_ids    #List of lo_id's where we could grasp better
 ---
 #feedback
