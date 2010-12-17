@@ -1,5 +1,0 @@
-commit 345b8657ac15f25a2dafd94bae46c2b19d67104c
-Author: Nikolaus Demmel <demmeln@in.tum.de>
-Date:   Thu Apr 29 15:03:06 2010 +0200
-
-    Added gitignore entries for some generated files.
