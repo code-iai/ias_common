@@ -6,6 +6,7 @@
   <depend package="geometry_msgs" />  
   <depend package="vision_msgs" />
   <depend package="geometric_shapes_msgs" />
+  <depend package="mapping_msgs"/>
   <export>
         <cpp cflags="-I${prefix}/srv/cpp"/>
    </export>
