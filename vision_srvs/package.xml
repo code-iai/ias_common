@@ -1,0 +1,26 @@
+<package>
+  <name>vision_srvs</name>
+  <version>1.0.0</version>
+  <description>Cognitive Perception Server</description>
+  <author>Ulrich F Klank</author>
+  <maintainer email="mustermann@fictional.de">Add Maintainer here</maintainer>
+  <license>Closed</license>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+  <build_depend>message_generation</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>vision_msgs</build_depend>
+  <build_depend>moveit_msgs</build_depend>
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>message_runtime</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>vision_msgs</run_depend>
+  <run_depend>moveit_msgs</run_depend>
+  <export>
+        <!--<cpp cflags="-I${prefix}/srv/cpp"/>-->
+   </export>
+</package>
