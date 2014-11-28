@@ -1,0 +1,23 @@
+<package>
+  <name>ias_common</name>
+  <version>1.0.0</version>
+  <description>ias_common</description>
+  <author>Maintained by Lorenz Moesenlechner</author>
+  <maintainer email="mustermann@fictional.de">Add Maintainer here</maintainer>
+  <license>BSD,GPL,GPLv3,Closed</license>  
+
+  <url>http://ros.org/wiki/ias_common</url>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>annotation_srvs</run_depend>
+  <run_depend>cogman_msgs</run_depend>
+  <run_depend>ias_table_msgs</run_depend>
+  <run_depend>navp_action</run_depend>
+  <run_depend>triangle_mesh_msgs</run_depend>
+  <run_depend>vision_msgs</run_depend>
+  <run_depend>vision_srvs</run_depend>
+  
+</package>
